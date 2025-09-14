@@ -69,6 +69,11 @@
             // 
             this.numericUpDownOrigPrice.DecimalPlaces = 2;
             this.numericUpDownOrigPrice.Location = new System.Drawing.Point(361, 143);
+            this.numericUpDownOrigPrice.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
             this.numericUpDownOrigPrice.Name = "numericUpDownOrigPrice";
             this.numericUpDownOrigPrice.Size = new System.Drawing.Size(120, 22);
             this.numericUpDownOrigPrice.TabIndex = 4;
