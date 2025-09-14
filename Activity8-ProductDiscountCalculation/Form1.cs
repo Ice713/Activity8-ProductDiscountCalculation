@@ -20,7 +20,7 @@ namespace Activity8_ProductDiscountCalculation
         private void buttonCalculate_Click(object sender, EventArgs e)
         {
             Product product = new Product(Decimal.Parse(numericUpDownOrigPrice.Text),Decimal.Parse(numericUpDownDiscount.Text));
-            MessageBox.Show($"Original Price: {numericUpDownOrigPrice.Text}\nDiscount: {numericUpDownDiscount.Text}%\nDiscounted Price: {product.CalculateDiscountedPrice()}");
+            MessageBox.Show($"Original Price: {numericUpDownOrigPrice.Text}\nDiscount: {numericUpDownDiscount.Text}%\nDiscounted Price: {product.CalculateDiscountedPrice().ToString("F2")}");
         }
     }
 }

@@ -41,7 +41,7 @@
             // 
             this.buttonCalculate.Location = new System.Drawing.Point(294, 205);
             this.buttonCalculate.Name = "buttonCalculate";
-            this.buttonCalculate.Size = new System.Drawing.Size(75, 23);
+            this.buttonCalculate.Size = new System.Drawing.Size(88, 33);
             this.buttonCalculate.TabIndex = 0;
             this.buttonCalculate.Text = "Calculate";
             this.buttonCalculate.UseVisualStyleBackColor = true;
